@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Корзина | Balkan Ussat - магазин электроники</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/zeynep/zeynep.css" rel="stylesheet">
+  <link href="assets/vendor/zeynep/base.css" rel="stylesheet">
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+</head>
+
+<body> 
+
+
+  <!-- LOGIN / REGISTER MODAL -->  
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <div class="modal-nav text-center"> 
+          <ul class="nav nav-tabs">
+           <li class="active"><a href="#Login" data-toggle="tab"> Войти</a></li>
+           <span> &nbsp;/&nbsp;</span>
+           <li><a href="#Registration" data-toggle="tab"> Регистрация</a></li>
+         </ul>
+       </div>
+       <div class="modal-close">  
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+        ×</button>
+      </div> 
+    </div>
+
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="Login">
+             <div class="col-12">
+              <!-- Login Form s-->
+              <form action="#">
+                <div class="login-form">
+                  <h4 class="login-title">Войти</h4>
+                  <div class="row">
+                    <div class="col-md-12 col-12">
+                      <input pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$" placeholder="Email">
+                    </div>
+                    <div class="col-12 mb--20">
+                      <input type="password" placeholder="Пароль">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="check-box">
+                        <input type="checkbox" id="remember_me">
+                        <label for="remember_me">Запомнить меня</label>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="forgotton-password_info">
+                        <a href="#"> Забыл(а) пароль?</a>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="login_btn">Войти</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="tab-pane" id="Registration">
+            <div class="col-12">
+              <form action="#">
+                <div class="login-form">
+                  <h4 class="login-title">Регистрация</h4>
+                  <div class="row">
+                    <div class="col-md-6 col-12 mb--20">
+                      <input type="text" placeholder="Фамилия">
+                    </div>
+                    <div class="col-md-6 col-12 mb--20">
+                      <input type="text" placeholder="Имя">
+                    </div>
+                    <div class="col-md-12">
+                      <input pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$" placeholder="Email" >
+                    </div>
+                    <div class="col-md-6">
+                      <input type="password" placeholder="Пароль">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="password" placeholder="Подтвердить пароль">
+                    </div>
+                    <div class="col-12">
+                      <button class="register_btn">Регистрация</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<!-- ======= Top Bar ======= -->
+<section id="topbar">
+  <div class="main-wrap-container">
+
+    <div class="container-fluid clearfix">
+      <div class="row">
+
+        <div class="col-2">
+          <div class="topbar-logo">
+            <a href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
+          </div>
+        </div>
+
+        <div class="col-10">
+          <div class="topbar-nav-block">
+            <div class="row justify-content-between">
+
+              <div class="topbar-info">
+                <div class="topbar-info-city">
+                  <span>Улица Андалиб 111, Ашхабад</span>
+                </div>
+                <div class="topbar-info-phone">
+                  <a href="#">+993 (65) 12-34-56</a>
+                </div>
+              </div>
+
+              <div class="topbar-menu-block">
+                <nav>
+                  <ul>
+                    <li><a href="sale.html">Акции</a></li>
+                    <li><a href="delivery.html">Доставка</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                  </ul>
+                </nav>
+              </div>
+
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Topbar -->
+
+<!-- ======= Header ======= -->
+<header id="header">
+
+  <!-- Mobile navigation -->
+  <div id="header-mobile">
+    <div class="container-fluid">
+
+      <div class="header-mobile-top">
+        <div class="row">
+
+          <div class="col-2">
+            <div class="header-mobile-burger">
+              <button type="button" class="btn-open first"><i class="icofont-navigation-menu"></i></button>
+              <a href="#"></a>
+            </div>
+            <div class="zeynep first" data-menu-name="first">
+              <div class="zeynep-logo">
+                <img src="assets/img/logo.png" alt="">
+              </div>
+              <ul>
+                <li>
+                  <a href="#">Главная</a>
+                </li>
+
+                <li>
+                  <a href="#">Каталог</a>
+                </li>
+
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+
+                <li>
+                  <a href="#">Новости</a>
+                </li>
+
+                <li>
+                  <a href="#">Обзоры</a>
+                </li>
+
+                <li>
+                  <a href="#">Услуги</a>
+                </li>
+
+              </ul>
+            </div>
+            <div class="zeynep-overlay"></div>
+          </div>
+
+          
+
+          <div class="col-8">
+            <div class="header-mobile-logo">
+              <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="header-mobile-search">
+              <li class="searchbar">
+                <i class="bx bx-search mobile-search" aria-hidden="true"></i>
+                <div class="togglesearch">
+                  <label class="form-inline">
+                    <input type="text" placeholder="Поиск">
+                    <button type="button"><i class="bx bx-search"></i></button>
+                  </label>
+                </div>
+              </li>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="header-sticky-buttons">
+        <div class="button-wrap button-home">
+          <a href="#">
+            <span>
+              <i class="icofont-home"></i>
+            </span>
+            <div class="button-link">
+              Главная
+            </div>
+          </a>
+        </div>
+
+        <div class="button-wrap button-catalog">
+          <button type="button" class="btn-open second">
+            <span>
+              <i class="icofont-listing-number"></i> 
+            </span>
+            <div class="button-link">
+              Каталог
+            </div>
+          </button>
+        </div>
+
+        <div class="button-wrap button-user">
+          <button data-toggle="modal" data-target="#myModal">  
+            <span>
+              <i class='bx bx-user'></i>
+            </span>
+            <div class="button-link">
+              Войти
+            </div>
+          </button>
+        </div>
+
+        <div class="button-wrap button-wishlist">
+          <a href="my-account.html/#account-address">
+            <span>
+             <i class='bx bx-bookmark'></i>
+             <small class="count d-flex">3</small>
+           </span>
+           <div class="button-link">
+            Избранное
+          </div>
+        </a>
+      </div>
+
+      <div class="button-wrap button-compare">
+        <a href="compare.html">
+          <span>
+           <i class='bx bx-git-compare' ></i>
+           <small class="count d-flex">3</small>
+         </span>
+         <div class="button-link">
+          Сравнение
+        </div>
+      </a>
+    </div>
+
+    <div class="button-wrap button-cart">
+      <div class="cart">
+        <a href="cart.html">
+         <span class="cart-number-2">
+           <i class='bx bx-cart'></i>
+           <small class="count d-flex">0</small>
+         </span>
+         <div class="button-link">
+          Корзина
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="main-header" >
+  <div class="main-wrap-container">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-2">
+          <div class="row">
+            <div id="header-lg" class="header-logo">
+              <a href="index.html"><img src="assets/img/logo-small.png" alt=""></a>
+            </div>
+            <div class="header-catalog-btn">
+              <button type="button" class="btn-open second"><i class='icofont-navigation-menu'></i>Каталог товаров</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="header-search">
+            <div class="search-input">
+              <a href="" target="_blank" hidden></a>
+              <input type="text" placeholder="Поиск по товарам">
+              <div class="autocom-box">
+                <!-- здесь будут результаты комплита -->
+              </div>
+              <div class="icon"><i class="icofont-search"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 pr-0">
+          <div class="header-buttons-wrap">
+
+            <div class="button-wrap button-user">
+              <button data-toggle="modal" data-target="#myModal">
+                <span>
+                  <i class='bx bx-user'></i>
+                </span>
+                <div class="button-link">
+                  Войти
+                </div>
+              </button>
+            </div>
+
+            <div class="button-wrap button-wishlist">
+              <a href="my-account.html">
+                <span>
+                 <i class='bx bx-bookmark'></i>
+                 <small class="count d-flex">3</small>
+               </span>
+               <div class="button-link">
+                Избранное
+              </div>
+            </a>
+          </div>
+
+          <div class="button-wrap button-compare">
+            <a href="compare.html">
+              <span>
+               <i class='bx bx-git-compare'></i>
+               <small class="count d-flex"></small>
+             </span>
+             <div class="button-link">
+              Сравнение
+            </div>
+          </a>
+        </div>
+
+        <div class="button-wrap button-cart">
+          <div class="cart">
+            <a href="cart.html">
+             <span class="cart-number">
+               <i class='bx bx-cart'></i>
+               <small id="cart_number" class="count d-flex">0</small>
+             </span>
+             <div class="button-link">
+              Корзина
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<!-- catalog -->
+<div class="zeynep second" data-menu-name="second">
+  <div class="zeynep-logo">
+    <img src="assets/img/logo.png" alt="">
+  </div>
+
+  <ul>
+    <label class="zeynep-title">Каталог</label>
+
+    <li class="has-submenu">
+      <a href="#"  class="zeynep-category" data-submenu="categories"><i class='bx bx-mobile-alt'></i> Смартфоны и гаджеты</a>
+
+      <div id="categories" class="submenu">
+        <div class="submenu-header">
+          <a href="#" data-submenu-close="categories">Назад</a>
+        </div>
+
+        <label class="zeynep-category"><i class='bx bx-mobile-alt'></i> Смартфоны и гаджеты</label>
+
+        <ul>
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Смартфоны</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Смартфоны</label>
+
+              <ul>
+                <li>
+                  <a href="#">Премиум смартфоны</a>
+                </li>
+
+                <li>
+                  <a href="#">Apple Iphone</a>
+                </li>
+
+                <li>
+                  <a href="#">Поддержанные Iphone</a>
+                </li>
+
+                <li>
+                  <a href="#">Смартфоны Samsung</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Планшеты</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Планшеты</label>
+
+              <ul>
+                <li>
+                  <a href="#">Детские планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Недорогие планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Игровые планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Планшеты Digma</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Аксессуары и планшеты</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Аксессуары и планшеты</label>
+
+              <ul>
+                <li>
+                  <a href="#">Детские планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Недорогие планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Игровые планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Планшеты Digma</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Аксессуары для смартфонов</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Планшеты</label>
+
+              <ul>
+                <li>
+                  <a href="#">Детские планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Недорогие планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Игровые планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Планшеты Digma</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <a href="#">Bluetooth гарнитуры</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="has-submenu">
+      <a href="#"  class="zeynep-category" data-submenu="categories"><i class='bx bx-laptop'></i> Ноутбуки и компьютеры</a>
+
+      <div id="categories" class="submenu">
+        <div class="submenu-header">
+          <a href="#" data-submenu-close="categories">Назад</a>
+        </div>
+
+        <label class="zeynep-category"><i class='bx bx-laptop'></i> Ноутбуки и компьютеры</label>
+
+        <ul>
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Смартфоны</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Смартфоны</label>
+
+              <ul>
+                <li>
+                  <a href="#">Премиум смартфоны</a>
+                </li>
+
+                <li>
+                  <a href="#">Apple Iphone</a>
+                </li>
+
+                <li>
+                  <a href="#">Поддержанные Iphone</a>
+                </li>
+
+                <li>
+                  <a href="#">Смартфоны Samsung</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Планшеты</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Планшеты</label>
+
+              <ul>
+                <li>
+                  <a href="#">Детские планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Недорогие планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Игровые планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Планшеты Digma</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Аксессуары и планшеты</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Аксессуары и планшеты</label>
+
+              <ul>
+                <li>
+                  <a href="#">Детские планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Недорогие планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Игровые планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Планшеты Digma</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Аксессуары для смартфонов</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Планшеты</label>
+
+              <ul>
+                <li>
+                  <a href="#">Детские планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Недорогие планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Игровые планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Планшеты Digma</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <a href="#">Bluetooth гарнитуры</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+    <li class="has-submenu">
+      <a href="#"  class="zeynep-category" data-submenu="categories"><i class='bx bx-tv'></i> Телевизор, аудио-видео, HI-FI</a>
+
+      <div id="categories" class="submenu">
+        <div class="submenu-header">
+          <a href="#" data-submenu-close="categories">Назад</a>
+        </div>
+
+        <label class="zeynep-category"><i class='bx bx-tv'></i> Телевизор, аудио-видео, HI-FI</label>
+
+        <ul>
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Смартфоны</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Смартфоны</label>
+
+              <ul>
+                <li>
+                  <a href="#">Премиум смартфоны</a>
+                </li>
+
+                <li>
+                  <a href="#">Apple Iphone</a>
+                </li>
+
+                <li>
+                  <a href="#">Поддержанные Iphone</a>
+                </li>
+
+                <li>
+                  <a href="#">Смартфоны Samsung</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Планшеты</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Планшеты</label>
+
+              <ul>
+                <li>
+                  <a href="#">Детские планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Недорогие планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Игровые планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Планшеты Digma</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Аксессуары и планшеты</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Аксессуары и планшеты</label>
+
+              <ul>
+                <li>
+                  <a href="#">Детские планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Недорогие планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Игровые планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Планшеты Digma</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li class="has-submenu">
+            <a href="#" data-submenu="electronics">Аксессуары для смартфонов</a>
+
+            <div id="electronics" class="submenu">
+              <div class="submenu-header">
+                <a href="#" data-submenu-close="electronics">Назад</a>
+              </div>
+
+              <label>Планшеты</label>
+
+              <ul>
+                <li>
+                  <a href="#">Детские планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Недорогие планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Игровые планшеты</a>
+                </li>
+
+                <li>
+                  <a href="#">Планшеты Digma</a>
+                </li>
+
+
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <a href="#">Bluetooth гарнитуры</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+
+  </ul>
+</div>
+<div class="zeynep-overlay"></div><!-- End Header -->
+
+
+<div class="main-wrap-container">
+
+  <!-- Section PageTop -->
+  <section class="section-pagetop bg">
+    <div class="container-fluid">
+      <nav>
+        <ol class="breadcrumb text-white">
+          <li class="breadcrumb-item"><a href="#">Главная</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Корзина</li>
+        </ol>  
+      </nav>
+    </div> <!-- container //  -->
+  </section>
+  <!-- Section PageTop End -->
+
+  
+</div>
+
+
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 footer-info">
+          <h2>Контакты</h2>
+          <p>
+            Улица Андалиба 111, Ашхабад, Туркменистан
+          </p>
+          <strong>Телефон:</strong> +993(65)12-34-56<br>
+          <strong>E-mail:</strong> info@example.com<br>
+          <div class="social-links mt-3">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
+            <a href="#" class="vk"><i class="bx bxl-vk"></i></a>
+            <a href="#" class="ok"><i class="bx bxl-ok-ru"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <ul>
+            <li><a href="sale.html">Акции</a></li>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Гарантии</a></li>
+            <li><a href="#">Возврат</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <ul>
+            <li><a href="#">Сервисный центр</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Клиентам</a></li>
+            <li><a href="#">Обзоры</a></li>
+            <li><a href="#">Барахолка</a></li>
+            <li><a href="#">Форум</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <ul>
+            <li><a href="#">Конфигуратор</a></li>
+            <li><a href="#">Подбор расходных материалов</a></li>
+            <li><a href="#">Сим Сим</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Правила использования</a></li>
+            <li><a href="#">Политика обработки персональных данных</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span> SimSim</span></strong>, <script>document.write(new Date().getFullYear())</script><span></span> | All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed by <a href="https://turkmenportal.com/">Turkmenportal</a>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+<script src="assets/vendor/venobox/venobox.min.js"></script>
+<script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="assets/vendor/counterup/counterup.min.js"></script>
+<script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/zeynep/zeynep.js"></script>
+
+
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/suggestions.js"></script>
+
+</body>
+
+</html>
