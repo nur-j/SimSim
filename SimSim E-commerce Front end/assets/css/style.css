@@ -151,7 +151,7 @@ li {
     background: #fff;
 }
 
-#preloader:before {
+/* #preloader:before {
     content: "";
     position: fixed;
     top: calc(50% - 30px);
@@ -163,6 +163,20 @@ li {
     height: 50px;
     -webkit-animation: animate-preloader 1s linear infinite;
     animation: animate-preloader 1s linear infinite;
+} */
+
+.preloader__img {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 70px;
+    width: 70px;
+    z-index: 10;
+    -webkit-animation: animate-preloader 1.5s linear infinite;
+    animation: animate-preloader 1.5s linear infinite;
 }
 
 @-webkit-keyframes animate-preloader {
