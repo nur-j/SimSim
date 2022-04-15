@@ -7935,4 +7935,11 @@ input[type="checkbox"]:checked ~ .accord-btn::after {
     .modal-question {
         padding: 5px;
     }
+    #features .features-layout {
+        padding: 5px;
+        height: 130px;
+    }
+    #features .features-content a {
+        font-size: 14px;
+    }
 }
