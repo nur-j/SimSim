@@ -7943,3 +7943,7 @@ input[type="checkbox"]:checked ~ .accord-btn::after {
         font-size: 14px;
     }
 }
+
+.bxs-star {
+    padding: 2px !important;
+}
