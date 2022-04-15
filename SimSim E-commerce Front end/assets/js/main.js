@@ -485,5 +485,12 @@
             $(".zoomImg").attr({ src: imgurl });
         }
     });
+
+    // Закрыть модальное окно после отравки отзыва
+    $("#forma-otzyv").on('submit', function(e) {
+        e.preventDefault()
+        $('#myopinion').modal('hide')
+    })
     
 })(jQuery);
+
