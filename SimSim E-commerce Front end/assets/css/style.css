@@ -7544,7 +7544,7 @@ input[type="checkbox"]:checked ~ .accord-btn::after {
 }
 
 .catalog-left .catalog-list-inner {
-    height: 75vh;
+    height: 65vh;
     overflow-y: scroll;
     scrollbar-width: none;
 }
