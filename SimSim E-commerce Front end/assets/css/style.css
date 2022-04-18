@@ -778,6 +778,10 @@ li {
     #header .header-mobile-logo {
         text-align: center;
         padding: 7px 0;
+        position: absolute;
+        top: -5px;
+        left: 0;
+        right: 0;
     }
 
     #header .header-mobile-logo img {
@@ -1515,6 +1519,7 @@ li {
     .product-item .product-item-layout-image {
         width: 150px;
         height: 150px;
+        margin-left: -30px;
     }
 
     .product-item-layout-cart-addcart button {
