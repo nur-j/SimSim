@@ -6641,7 +6641,7 @@ input[type="checkbox"]:checked ~ .accord-btn::after {
 }
 
 .form-wish label {
-    font-size: 18px;
+    font-size: 18px;   
 }
 
 .form-wish select {
@@ -7954,6 +7954,14 @@ input[type="checkbox"]:checked ~ .accord-btn::after {
     }
     #features .features-content a {
         font-size: 14px;
+    }
+    .form-wish {
+        display: flex;
+        gap: 10px;       
+    }
+    .form-wish select {
+        width: 150px;
+        margin-top: -7px;
     }
 }
 
