@@ -7931,6 +7931,13 @@ input[type="checkbox"]:checked ~ .accord-btn::after {
     border-color: #fe7200;
 }
 
+@media screen and (max-width: 768px) {
+    .product-item-layout-actions {
+        background-color: rgba(0, 0, 0, 0.1);
+        display: block;
+    }
+}
+
 
 @media screen and (max-width: 500px) {
     .modal-question {
